@@ -1,0 +1,14 @@
+[user]
+	email = robertjmccabe@gmail.com
+	name = Robert McCabe
+[difftool "beyondCompare"]
+	cmd = "gitfiles/beyondcompare-diff.sh \"$LOCAL\" \"$REMOTE\""
+[mergetool "beyondCompare"]
+	cmd = "gitfiles/beyondcompare-merge.sh \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\""
+	trustExitCode = true
+[diff]
+	tool = beyondCompare
+[merge]
+	tool = beyondCompare
+[color]
+	ui = true
