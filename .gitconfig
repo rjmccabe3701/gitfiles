@@ -2,9 +2,9 @@
 	email = robertjmccabe@gmail.com
 	name = Robert McCabe
 [difftool "beyondCompare"]
-	cmd = "gitfiles/beyondcompare-diff.sh \"$LOCAL\" \"$REMOTE\""
+	cmd = "beyondcompare-diff.sh \"$LOCAL\" \"$REMOTE\""
 [mergetool "beyondCompare"]
-	cmd = "gitfiles/beyondcompare-merge.sh \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\""
+	cmd = "beyondcompare-merge.sh \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\""
 	trustExitCode = true
 [diff]
 	tool = beyondCompare

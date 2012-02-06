@@ -1,0 +1,15 @@
+The repository is my typical git configuration on cygwin.
+
+To use do the following (inside the gitfiles working directory):
+1.  Link your working .gitconfig to the .gitconfig in the repository
+    > ln .gitconfig ~/.gitconfig
+2.  Install BeyondCompare (I use this as my difftool/merge tool).
+    Note, if you install BeyondCompare in a location other than
+    C:\Program Files (x86)\Beyond Compare 3
+    then you will need to change the "beyondcompare" variable
+    in githelperfunctions.sh
+
+
+
+
+
